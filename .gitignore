@@ -1,0 +1,13 @@
+*.png
+*jpg
+*.engine
+*.onnx
+
+YOLOX_outputs/
+
+build/
+
+.idea/
+
+
+**/__pycache__/

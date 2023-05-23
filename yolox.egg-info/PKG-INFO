@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yolox
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/Megvii-BaseDetection/YOLOX
+Author: megvii basedet team
+License: UNKNOWN
+Project-URL: Documentation, https://yolox.readthedocs.io
+Project-URL: Source, https://github.com/Megvii-BaseDetection/YOLOX
+Project-URL: Tracker, https://github.com/Megvii-BaseDetection/YOLOX/issues
+Description: # TUP战队2022神经网络训练程序
+        # Author: RangerOnMars guhao0521@gmail.com
+        自用仓库,因为贪图方便改的比较不雅观,希望各位大佬轻点喷QWQ
+        如有疑惑可以查看本仓库wiki,不断更新中,记得点个star和watch哦
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
