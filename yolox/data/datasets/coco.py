@@ -185,8 +185,8 @@ class COCODataset(Dataset):
         #     res[ix, 0:4] = obj["clean_bbox"]
         # #     res[ix, 4] = cls
         for ix, obj in enumerate(objs):
-            cls = self.class_ids.index(obj["category_id"]) - 1
-            res[ix, :self.num_apexes * 2] = np.ravel(obj["segmentation"])[:self.num_apexes * 2]  # Apex
+            cls = self.class_ids.index(obj["category_id"])
+            res[ix, :self.num_apexes * 2] = np.ravel(obj["segmentation"]) # Apex
             res[ix, self.num_apexes * 2] = cls % self.num_classes  # Class
             res[ix, self.num_apexes * 2 + 1] = cls // self.num_classes  # Color
         # Normalize label
