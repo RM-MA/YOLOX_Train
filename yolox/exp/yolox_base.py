@@ -76,7 +76,7 @@ class Exp(BaseExp):
         self.momentum = 0.9
 
         self.print_interval = 100
-        self.eval_interval = 5
+        self.eval_interval = 1
         self.per_class_AP = True
         self.per_class_AR = True
         self.save_history_ckpt = True
