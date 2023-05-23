@@ -17,8 +17,8 @@ test.py
 
 buff-*/
 
-datasets/
 
 
 **/instances_train2017.json
 **/instances_val017.json
+datasets/TUP-Armor-Dataset/annotations/instances_train2017.json

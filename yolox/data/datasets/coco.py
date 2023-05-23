@@ -280,7 +280,7 @@ class COCODataset(Dataset):
         file_name = self.annotations[index][3]
 
         img_file = os.path.join(self.data_dir, self.name, file_name)
-        print(f"read image: {img_file}")
+        # print(f"read image: {img_file}")
         img = cv2.imread(img_file)
         assert img is not None, f"file named {img_file} not found"
 
