@@ -75,8 +75,8 @@ class Exp(BaseExp):
         # self.weight_decay = 1e-8
         self.momentum = 0.9
 
-        self.print_interval = 10
-        self.eval_interval = 10
+        self.print_interval = 100
+        self.eval_interval = 5
         self.per_class_AP = True
         self.per_class_AR = True
         self.save_history_ckpt = True

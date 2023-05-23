@@ -20,4 +20,5 @@ buff-*/
 datasets/
 
 
-**/TUP-Armor-Dataset/**
+**/instances_train2017.json
+**/instances_val017.json
