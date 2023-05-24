@@ -34,6 +34,7 @@ for an in a['annotations']:
     'category_id': an['category_id'] - 1,
     'area': an['area'],
     'segmentation': [an['segmentation'][0][:10]],
+    'bbox': an['bbox'],
     'iscrowd': 0,
     'num_keypoints': 5,
     'keypoints': ks
